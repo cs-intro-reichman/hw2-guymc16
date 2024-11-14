@@ -2,7 +2,6 @@
 public class Collatz {
 	public static void main(String args[]) {
 
-		int Num = Integer.parseInt(args[0]);
 		char CV = args[1].charAt(0);
 		int Count = Integer.parseInt(args[0]);
 		int Try;
@@ -29,7 +28,7 @@ public class Collatz {
 				Pelet = Pelet + " " + EqI;
 				Try += 1;
 			}
-			Pelet = Pelet + "(" + Try + ")";
+			Pelet = Pelet + " (" + Try + ")";
 			if (CV == 'v') {
 				System.out.println(Pelet);
 			} 

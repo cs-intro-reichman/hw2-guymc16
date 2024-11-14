@@ -5,13 +5,19 @@ public class TimeCalc {
         int InputHours = Integer.parseInt("" + args[0].charAt(0)+args[0].charAt(1));
         int InputMin = Integer.parseInt("" + args[0].charAt(3)+args[0].charAt(4));
         InputMin = InputMin + InputHours*60 + MinuteToAdd;
-        String Zero ="";
+        String ZeroM ="";
+        String ZeroH = "";
 
         if (InputMin%10 == 0)
         {
-            Zero = "0";
+            ZeroM = "0";
         }
-        String NewHour = "" + ((InputMin/60)%24)%24 +":" + InputMin%60 + Zero;
+
+        if((InputMin/60)%24)%24 == 0)
+        {
+            ZeroH = "0";
+        }
+        String NewHour = "" + ZeroH + ((InputMin/60)%24)%24 +":" + InputMin%60 + Zero;
 
         System.out.println(NewHour);
         

@@ -13,11 +13,11 @@ public class TimeCalc {
             ZeroM = "0";
         }
 
-        if((InputMin/60)%24)%24 == 0)
+        if (((InputMin/60)%24) == 0)
         {
             ZeroH = "0";
         }
-        String NewHour = "" + ZeroH + ((InputMin/60)%24)%24 +":" + InputMin%60 + Zero;
+        String NewHour = "" + ZeroH + ((InputMin/60)%24) +":" + InputMin%60 + ZeroM;
 
         System.out.println(NewHour);
         

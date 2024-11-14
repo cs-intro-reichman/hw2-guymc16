@@ -5,7 +5,7 @@ public class CalcPi {
 		double AppPi=0;
 		int Input = (Integer.parseInt(args[0]))*2 + 1;
 
-		for ( int i=1; i<Input; i=i+2)
+		for (int i=1; i<Input; i=i+2)
 		{
 			if ((i-3)%4 ==0)
 			{
@@ -18,7 +18,7 @@ public class CalcPi {
 
 		AppPi = AppPi*4;
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated: " + AppPi);
+		System.out.println("pi, approximated:     " + AppPi);
 
 	    // Replace this comment with your code
 	}

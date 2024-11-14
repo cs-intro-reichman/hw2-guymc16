@@ -36,7 +36,7 @@ public class Collatz {
 			
 		}
 
-		System.out.println("Every one of the first " + Count + " hailstone sequences reached 1");
+		System.out.println("Every one of the first " + Count + " hailstone sequences reached 1.");
 
 	    // Replace this comment with your code
 	}

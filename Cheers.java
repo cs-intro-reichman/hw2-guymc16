@@ -2,7 +2,7 @@
 public class Cheers {
         public static void main(String[] args) {
                 String Name = args[0];
-                String Ana = "a";
+                String Ana = "a ";
                 String NewName = "";
                 int Show = Integer.parseInt(args[1]);
                 String SpecialUpper = "AEFHILMNORSX";
@@ -27,7 +27,7 @@ public class Cheers {
                         }
 
                         System.out.println("Give me "+ Ana + " " + NewName.charAt(x) + ": " + NewName.charAt(x) +"!" );
-                        Ana = "a";
+                        Ana = "a ";
                 }
                 
                 System.out.println("What does that spell?");
